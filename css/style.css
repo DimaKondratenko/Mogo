@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 12px;
+}
+.clearfix {
+    overflow: auto;
+}
+
+.container {
+    max-width: 962px;
+    margin: 0 auto;
+ 
+}
+.wrapper {
+    height: 521px;
+}
+ 
+ 
+.inner-header {
+    padding-top:90px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.inner-header h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+.inner-header h2 {
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.content .inner-content .item {
+    width: 320px;
+    padding-bottom: 80px;
+    
+}
+.inner-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .inner-content .item h2 {
+    margin-bottom: 10px;
+}
+.content .inner-content .item p {
+    width:270px;
+     color: grey;
+    font-size:14px;
+}
+ .liner {
+    margin-top: -52px;
+     margin-bottom: 37px;
+ }
+ .bg {
+     float: left;
+     margin-right: 20px;
+ }
